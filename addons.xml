@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.iptvsubs2pvriptvsimple3" name="iptvsubs to pvriptvsimple Repository" version="1.0.0" provider-name="littlestoneiptv">
+<addon id="repository.iptvsubs2pvriptvsimple3" name="iptvsubs to pvriptvsimple Repository" version="1.0.1" provider-name="littlestoneiptv">
 	<extension point="xbmc.addon.repository" name="iptvsubs to pvriptvsimple Repository">
-		<info compressed="false">https://www.github.com/littlestoneiptv/iptvsubs2pvriptvsimple3/raw/master/addons.xml</info>
-		<checksum>https://www.github.com/littlestoneiptv/iptvsubs2pvriptvsimple3/raw/master/addons.xml.md5</checksum>
-		<datadir>https://www.github.com/littlestoneiptv/iptvsubs2pvriptvsimple3/raw/master/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/littlestoneiptv/iptvsubs2pvriptvsimple3/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/littlestoneiptv/iptvsubs2pvriptvsimple3/master/addons.xml.md5</checksum>
+		<datadir>https://raw.githubusercontent.com/littlestoneiptv/iptvsubs2pvriptvsimple3/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Addons from iptvsubs to pvriptvsimple Repository</summary>
