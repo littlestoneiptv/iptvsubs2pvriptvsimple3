@@ -16,18 +16,18 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="service.iptvsubs2pvriptvsimple3"
-    name="IPTVsubs to PVR IPTV Simple" version="2.7.2" provider-name="littlestone">
+<addon id="service.iptvsubs2pvriptvsimple3" name="IPTVsubs to PVR IPTV Simple" version="2.7.3" provider-name="littlestone">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="repository.iptvsubs2pvriptvsimple3"/>
   </requires>
-  <extension point="xbmc.service" library="service.py" start="login"></extension>
+  <extension point="xbmc.service" library="service.py" start="login"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Update EPG of IPTVSubs for PVR IPTV Simple</summary>
     <description lang="en">This is a fork from the beta version of psycon's IPTVsubs EPG updater to match with IPTVsubs addon 2.7. It creates a m3u file for the PVR IPTV Simple with mapped EPG and channel logo.</description>
     <platform>all</platform>
     <language>en</language>
     <license>GPL</license>
-  </extension>
+  </extension> 
 </addon>
 </addons>
