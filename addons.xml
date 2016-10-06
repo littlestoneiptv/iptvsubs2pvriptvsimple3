@@ -23,11 +23,11 @@
   </requires>
   <extension point="xbmc.service" library="service.py" start="login"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Update EPG of IPTVSubs for PVR IPTV Simple</summary>
-    <description lang="en">This is a fork from the beta version of psycon's IPTVsubs EPG updater to match with IPTVsubs addon 2.7. It creates a m3u file for the PVR IPTV Simple with mapped EPG and channel logo.</description>
+    <summary>Update EPG of IPTVSubs for PVR IPTV Simple</summary>
+    <description>This is a fork from IPTVsubs EPG updater of Psyc0n for IPTVSubs</description>
     <platform>all</platform>
     <language>en</language>
     <license>GPL</license>
-  </extension> 
+  </extension>
 </addon>
 </addons>
