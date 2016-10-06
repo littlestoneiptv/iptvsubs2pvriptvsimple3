@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.iptvsubs2pvriptvsimple3" name="IPTVsubs to PVR IPTV Simple" version="2.7.3" provider-name="littlestone">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="repository.iptvsubs2pvriptvsimple3"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Update EPG of IPTVSubs for PVR IPTV Simple</summary>
+    <description>This is a fork from IPTVsubs EPG updater of Psyc0n for IPTVSubs</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GPL</license>
+  </extension>
+</addon>
