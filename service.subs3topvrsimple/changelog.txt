@@ -1,0 +1,2 @@
+v3.0.1 (2016-11-29) - Minor update on matching seetings
+v3.0.0  (2016-11-28) - First Release to Match with IPTVSubs Addon 3.0
