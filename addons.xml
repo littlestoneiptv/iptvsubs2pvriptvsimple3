@@ -63,7 +63,6 @@ v3.0.0  (2016-11-28) - First Release to Match with IPTVSubs Addon 3.0
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
 <addon id="plugin.video.iptvsubs" name="IPTVsubs" version="3.0" provider-name="MikkM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -78,4 +77,4 @@ v3.0.0  (2016-11-28) - First Release to Match with IPTVSubs Addon 3.0
     <platform>all</platform>
   </extension>
 </addon>
-
+</addons>
