@@ -20,22 +20,6 @@ v1.0.6  (2016-12-01) - Added zip true tag
 v1.0.5  (2016-10-18) - Added changelog for both Kodi v16 and v17; tried to include standalone clause in xml</news>
         </extension>
 </addon>
-<addon id="service.iptvsubs2pvriptvsimple3" name="IPTVsubs to PVR IPTV Simple" version="2.7.5" provider-name="littlestone">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="plugin.video.ruyaiptv" version="2.7"/>
-  </requires>
-  <extension point="xbmc.service" library="service.py" start="login"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>Update EPG of IPTVSubs for PVR IPTV Simple</summary>
-    <description>This is a fork from IPTVsubs EPG updater of Psyc0n for IPTVSubs</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GPL</license>
-    <news>v2.7.5  (2016-10-19) - Add correction for IPTVSubs invalid xml format.
-v2.7.4  (2016-10-18) - Added changelog for both Kodi v16 and v17; tried to include standalone clause in xml</news>
-  </extension>
-</addon>
 <addon id="service.subs3topvrsimple" name="IPTVsubs to PVR IPTV Simple" version="3.0.1" provider-name="littlestone">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -51,19 +35,6 @@ v2.7.4  (2016-10-18) - Added changelog for both Kodi v16 and v17; tried to inclu
     <news>v3.0.1 (2016-11-29) - Minor update on matching seetings
 v3.0.0  (2016-11-28) - First Release to Match with IPTVSubs Addon 3.0
 </news>
-  </extension>
-</addon>
-<addon id="plugin.video.ruyaiptv" name="IPTV Subs" version="2.7" provider-name="Warlock">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Iptv Subs</summary>
-    <description lang="en">Get access to exclusive HD channels for your favourite sports, movies and tv shows.</description>
-    <platform>all</platform>
   </extension>
 </addon>
 <addon id="plugin.video.iptvsubs" name="IPTVsubs" version="3.0" provider-name="MikkM">
