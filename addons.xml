@@ -1,24 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.iptvsubs2pvriptvsimple3" name="iptvsubs to pvriptvsimple Repository" version="1.0.7" provider-name="littlestoneiptv">
-        <extension point="xbmc.addon.repository" name="iptvsubs to pvriptvsimple Repository">
-                <info compressed="false">http://littlestoneiptv.ignorelist.com/addons.xml</info>
-                <checksum>http://littlestoneiptv.ignorelist.com/addons.xml.md5</checksum>
-                <datadir zip="true">http://littlestoneiptv.ignorelist.com/</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-                <summary>Install Addons from iptvsubs to pvriptvsimple Repository</summary>
-                <description>Download and install addons from iptvsubs to pvriptvsimple Repo.</description>
-                <disclaimer>
-                        The Software is provided "as is" without warranty of any kind, either express or implied, including without limitation any implied warranties of condition, uninterrupted use, merchantability, fitness for a partic$
-                        Anyone associated with these addons will not be held responsible for the use or misuse of this software if considered illegal in your country.  Use the this software is at your own risk.
-                </disclaimer>
-                <platform>all</platform>
-                <news>
+<addon id="repository.littlestoneiptv" name="LittleStone IPTV Repository" version="1.0.8" provider-name="littlestone">
+	<extension point="xbmc.addon.repository" name="iptvsubs to pvriptvsimple Repository">
+		<info compressed="false">http://littlestoneiptv.ignorelist.com/addons.xml</info>
+		<checksum>http://littlestoneiptv.ignorelist.com/addons.xml.md5</checksum>
+		<datadir zip="true">http://littlestoneiptv.ignorelist.com/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons from LittleStone's IPTV Repository</summary>
+		<description>Download and install addons from LittleStone's IPTV Repo.</description>
+		<disclaimer>
+			The Software is provided "as is" without warranty of any kind, either express or implied, including without limitation any implied warranties of condition, uninterrupted use, merchantability, fitness for a particular purpose, or non-infringement.
+			Anyone associated with these addons will not be held responsible for the use or misuse of this software if considered illegal in your country.  Use the this software is at your own risk.
+		</disclaimer>
+		<platform>all</platform>
+		<news>
+v1.0.8  (2016-12-30) - Changed repo name.
 v1.0.7  (2016-12-01) - Added compressed tag. Fixed zip tag
 v1.0.6  (2016-12-01) - Added zip true tag
 v1.0.5  (2016-10-18) - Added changelog for both Kodi v16 and v17; tried to include standalone clause in xml</news>
-        </extension>
+	</extension>
+</addon>
+<addon id="plugin.video.stalker-g" name="IPTV Stalker Generic" version="1.0.1" provider-name="esxbr, dara, couch potato, littlestone">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">IPTV Stalker Generic</summary>
+		<description lang="en">Generic version of IPTV Stalker Plus with most provider specific features removed, based on ISP Lite 1.1.0</description>
+		<license>GNU General Public License, v2</license>
+		<language>en</language>
+	</extension>
+    <news>v1.0.1 (2016-12-31) - Added password field
+    v1.0.0 (2016-12-10) - First Release</news>
+</addon>
+<addon id="service.stalker2simple" name="Stalker to PVR IPTV Simple" version="1.0.1" provider-name="littlestone">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="plugin.video.stalker-g" />
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Stalker to PVR IPTV Simple</summary>
+    <description>This is a fork from Psyc0n's EPG updater. It configures PVR IPTV Simple to use a generic version of Stalker addon. It allows channel choices by groups. It downloads any EPG xmltv file regularly.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GPL</license>
+    <news>v1.0.1 (2016-12-11) - Fixed channel name encoding
+    v1.0.0 (2016-12-10) - First Release</news>
+  </extension>
 </addon>
 <addon id="service.subs3topvrsimple" name="IPTVsubs to PVR IPTV Simple" version="3.0.1" provider-name="littlestone">
   <requires>
