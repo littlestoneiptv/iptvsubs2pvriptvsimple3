@@ -21,22 +21,23 @@ v1.0.6  (2016-12-01) - Added zip true tag
 v1.0.5  (2016-10-18) - Added changelog for both Kodi v16 and v17; tried to include standalone clause in xml</news>
 	</extension>
 </addon>
-<addon id="plugin.video.stalker-g" name="IPTV Stalker Generic" version="1.0.1" provider-name="esxbr, dara, couch potato, littlestone">
+<addon id="plugin.video.stalker-g" name="IPTV Stalker Generic" version="1.0.2" provider-name="esxbr, dara, couch potato, littlestone">
     <requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="server.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">IPTV Stalker Generic</summary>
-		<description lang="en">Generic version of IPTV Stalker Plus with most provider specific features removed, based on ISP Lite 1.1.0</description>
-		<license>GNU General Public License, v2</license>
-		<language>en</language>
-	</extension>
-    <news>v1.0.1 (2016-12-31) - Added password field
+                <import addon="xbmc.python" version="2.14.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+                <provides>video</provides>
+        </extension>
+        <extension point="xbmc.service" library="server.py" start="startup" />
+        <extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+                <summary lang="en">IPTV Stalker Generic</summary>
+                <description lang="en">Generic version of IPTV Stalker Plus with most provider specific features removed, based on ISP Lite 1.1.0</description>
+                <license>GNU General Public License, v2</license>
+                <language>en</language>
+        </extension>
+    <news>v1.0.2 (2017-01-03) - Minor bug fix related to censored channels
+    v1.0.1 (2016-12-31) - Added password field
     v1.0.0 (2016-12-10) - First Release</news>
 </addon>
 <addon id="service.stalker2simple" name="Stalker to PVR IPTV Simple" version="1.0.1" provider-name="littlestone">
