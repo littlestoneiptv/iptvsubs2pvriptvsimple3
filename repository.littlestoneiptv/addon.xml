@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.littlestoneiptv" name="LittleStone IPTV Repository" version="1.0.8" provider-name="littlestone">
+	<extension point="xbmc.addon.repository" name="iptvsubs to pvriptvsimple Repository">
+		<info compressed="false">http://littlestoneiptv.ignorelist.com/addons.xml</info>
+		<checksum>http://littlestoneiptv.ignorelist.com/addons.xml.md5</checksum>
+		<datadir zip="true">http://littlestoneiptv.ignorelist.com/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons from LittleStone's IPTV Repository</summary>
+		<description>Download and install addons from LittleStone's IPTV Repo.</description>
+		<disclaimer>
+			The Software is provided "as is" without warranty of any kind, either express or implied, including without limitation any implied warranties of condition, uninterrupted use, merchantability, fitness for a particular purpose, or non-infringement.
+			Anyone associated with these addons will not be held responsible for the use or misuse of this software if considered illegal in your country.  Use the this software is at your own risk.
+		</disclaimer>
+		<platform>all</platform>
+		<news>
+v1.0.8  (2016-12-30) - Changed repo name.
+v1.0.7  (2016-12-01) - Added compressed tag. Fixed zip tag
+v1.0.6  (2016-12-01) - Added zip true tag
+v1.0.5  (2016-10-18) - Added changelog for both Kodi v16 and v17; tried to include standalone clause in xml</news>
+	</extension>
+</addon>

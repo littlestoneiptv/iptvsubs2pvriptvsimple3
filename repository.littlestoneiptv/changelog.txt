@@ -1,0 +1,4 @@
+v1.0.8  (2016-12-30) - Changed repo name.
+v1.0.7  (2016-12-01) - Added compressed tag. Fixed zip tag
+v1.0.6  (2016-12-01) - Added zip true tag
+v1.0.5  (2016-10-18) - Added changelog for both Kodi v16 and v17; tried to include standalone clause in xml
